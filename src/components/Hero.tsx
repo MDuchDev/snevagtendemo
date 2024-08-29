@@ -25,8 +25,8 @@ const Hero = () => {
         <p className="text-center md:tracking-wider text-sm md:text-lg lg:text-xl text-blue-100 mt-1 md:pb-0 pb-4">
           Next.js, OpenAI, FlowiseAI
         </p>
-        <a href="#cases">
-          <MagicButton title="Se cases" icon={<FaLocationArrow />} position="right" />
+        <a href="#services">
+          <MagicButton title="Vores services" icon={<FaLocationArrow />} position="right" />
         </a>
       </div>
     </div>
