@@ -100,7 +100,7 @@ export const navItems = [
       des: "En custom webscraper til Flexa, som scanner hjemmesider efter valgte produkter",
       img: "/webcrawler.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/excel.png", "/python.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "",
     },
   ];
   

@@ -7,7 +7,7 @@ const RecentProjects = () => {
     <div className="py-20 pt-40" id="cases">
       <h1 className="heading text-white">
         Her er nogle af {" "}
-        <span className="text-purple">vores projekter</span>
+        <span className="text-purple">vores cases</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10 text-white">
         {projects.map(({
