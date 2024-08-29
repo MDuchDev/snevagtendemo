@@ -26,7 +26,7 @@ const Hero = () => {
           Next.js, OpenAI, FlowiseAI
         </p>
         <a href="#cases">
-          <MagicButton title="Tidligere cases" icon={<FaLocationArrow />} position="right" />
+          <MagicButton title="Se cases" icon={<FaLocationArrow />} position="right" />
         </a>
       </div>
     </div>

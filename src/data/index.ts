@@ -9,17 +9,17 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "Vi prioriterer kundens ønsker og samarbejder med åben kommunikation",
+      title: "Skræddersyede chatbot-løsninger, der kan tilpasses til alle tænkelige formål og funktioner",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/ai-brain.png",
       spareImg: "",
     },
     {
       id: 2,
-      title: "Lynhurtige connections i den nyeste teknologi",
+      title: "Vi automatisere processer og øger effektiviteten",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -29,8 +29,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Freelance it-specialist",
-      description: "Løs dine udfordringer",
+      title: "IT-værktøjer og teknologier",
+      description: "Skræddersyede løsninger",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -39,7 +39,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech-nørd med en passion for AI, webudvikling og automatisering.",
+      title: "Freelancer specialist i ai, webudvikling og automatisering",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
