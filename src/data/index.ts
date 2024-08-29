@@ -98,7 +98,7 @@ export const navItems = [
       id: 4,
       title: "Hold øje med konkurrenterne",
       des: "En custom webscraper til Flexa, som scanner hjemmesider efter valgte produkter",
-      img: "/webcrawler.png",
+      img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/excel.png", "/python.svg"],
       link: "",
     },
