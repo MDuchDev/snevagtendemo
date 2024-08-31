@@ -1,6 +1,5 @@
 "use client";
 
-import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
@@ -17,7 +16,6 @@ const LandingPage = () => {
         <Grid />
         <RecentProjects />
         <Experience />
-        <Approach />
         <Prices />
         <Footer />
         <BubbleChat
