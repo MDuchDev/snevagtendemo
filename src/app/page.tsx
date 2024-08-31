@@ -29,7 +29,7 @@ const LandingPage = () => {
             },
             tooltip: {
               showTooltip: true,
-              tooltipMessage: "Chat med mig 👋",
+              tooltipMessage: "Prøv vores chatbot 👋",
               tooltipBackgroundColor: "#202335",
               tooltipTextColor: 'white',
               tooltipFontSize: 14,
