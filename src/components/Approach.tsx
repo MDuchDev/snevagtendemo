@@ -44,11 +44,11 @@ const Approach = () => {
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Udvikling & Lancering"
+          title="Deployment & Lancering"
           icon={
             <AceternityIcon order="Step 3" />
           }
-          des="Her sker magien! Baseret på et godkendt design vil jeg gå videre med implementering af løsningen"
+          des="Her sker magien! Baseret på et godkendt resultat og design vil jeg gå videre med implementering af løsningen"
         >
           <CanvasRevealEffect
             animationSpeed={3}
