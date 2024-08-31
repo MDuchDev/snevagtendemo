@@ -21,8 +21,6 @@ const Footer = () => {
 
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal mb-8 sm:mb-0 font-light text-white-200">
-          Rexai
-          <br />
           7400, Herning
           <br />
           Tlf: 30869192
