@@ -139,7 +139,7 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      link: "https://github.com/MDuchDev"
+      link: "www.github.com/MDuchDev"
     },
     {
       id: 2,
