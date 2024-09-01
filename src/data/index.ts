@@ -19,7 +19,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Vi automatisere processer og øger effektiviteten",
+      title: "Vi automatiserer online processer og optimerer digitale workflows",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -50,7 +50,7 @@ export const navItems = [
     {
       id: 5,
       title: "Vi programmerer og gennemtester AI-specialløsninger bygget med den nyeste teknologi",
-      description: "The Inside Scoop",
+      description: "Specialløsninger",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -69,66 +69,31 @@ export const navItems = [
     },
   ];
   
-  export const projects = [
-    {
-      id: 1,
-      title: "QnA chatbot til Snevagten.dk",
-      des: "Multiagent chatbot med værktøjer til at besvare de kundernes spørgsmål.",
-      img: "/p1.svg",
-      iconLists: ["/python.svg", "/tail.svg", "/ts.svg", "/three.svg", "/git.svg"],
-      link: "https://snevagten.dk/",
-    },
-    {
-      id: 2,
-      title: "Mere end 2000 produktbeskrivelser med SEO optimering",
-      des: "Python Script som har genereret og SEO-forbedret mere end 2000 produktbeskrivelser på mindre end 20 minutter.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/excel.png", "/python.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
-    },
-    {
-      id: 3,
-      title: "Teknisk SEO",
-      des: "Optimerede websiden for hurtigere ydeevne og forbedret synlighed i søgemaskiner.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/morningscore.png"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
-    },
-    {
-      id: 4,
-      title: "Hold øje med konkurrenterne",
-      des: "En custom webscraper til Flexa, som scanner hjemmesider efter valgte produkter",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/excel.png", "/python.svg"],
-      link: "",
-    },
-  ];
-  
   export const workExperience = [
     {
       id: 1,
-      title: "Fullstack udvikler",
-      desc: "Vi udvikler hele løsningen, både backend og frontend med NextJS",
+      title: "Webudvikling",
+      desc: "Vi udvikler hele løsningen, både backend og frontend med NextJS.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
       title: "Hastighedsoptimering",
-      desc: "Med server side rendering (SSR) sikrer vi altid de hurtigste løsninger for vores kunder",
+      desc: "Med server side rendering (SSR) sikrer vi altid de hurtigste løsninger for vores kunder.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
       title: "Siger aldrig nej til en udfordring",
-      desc: "Har du en ide eller et koncept du gerne vil afprøve? Vi undersøger gerne mulighederne for nye løsninger",
+      desc: "Har du en ide eller et koncept du gerne vil afprøve? Vi undersøger gerne mulighederne for nye løsninger.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Webudvikling",
+      title: "Fullstack udvikler",
       desc: "Vi laver mange forskellige løsninger til vores kunder. Kontakt os hvis du er i tvivl om vi kan hjælpe dig.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",

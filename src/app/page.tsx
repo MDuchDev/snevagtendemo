@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Prices from "@/components/Prices";
-import RecentProjects from "@/components/RecentProject";
+import { RecentCases } from "@/components/RecentCases";
 import { BubbleChat } from "flowise-embed-react";
 
 const LandingPage = () => {
@@ -14,7 +14,7 @@ const LandingPage = () => {
       <div className="max-w-7xl w-full">
         <Hero />
         <Grid />
-        <RecentProjects />
+        <RecentCases />
         <Experience />
         <Prices />
         <Footer />

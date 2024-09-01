@@ -9,13 +9,13 @@ const Footer = () => {
     <footer className="w-full pt-20 pb-10" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw] text-white">
-          Skal den {" "}<span className="text-purple">digitale</span> tilstedeværelse tages til det næste niveau?
+          Skal din {" "}<span className="text-purple">digitale</span> tilstedeværelse tages til det næste niveau?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
         Tag kontakt og lad os sammen kigge på hvordan vi kan hjælpe dig!
         </p>
         <a href="mailto:mikkel@rexduch.com">
-          <MagicButton title="Send en mail" icon={<MdOutlineMailOutline /> } position="right" />
+          <MagicButton title="Send os en mail" icon={<MdOutlineMailOutline /> } position="right" />
         </a>
       </div>
 

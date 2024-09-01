@@ -2,13 +2,15 @@ import { CardSpotlight } from "./ui/CardSpotlight";
 
 const Prices = () => {
   return (
-    <div className="py-20 pt-40" id="prices">
+    <div className="py-20" id="prices">
       <h1 className="heading text-white">
         Vores {" "}
         <span className="text-purple">priser</span>
       </h1>
       <div className="pt-14 md:flex-row flex flex-col justify-center items-center gap-8">
-        <CardSpotlight className="h-96 w-96">
+        
+        <CardSpotlight className="h-96 w-96 flex flex-col justify-between">
+          <div>
           <p className="text-xl font-bold relative z-20 mt-2 text-white">
             Standard pris
           </p>
@@ -17,9 +19,10 @@ const Prices = () => {
             <ul className="list-none  mt-2">
               <Step title="Chatbots" />
               <Step title="Teknisk SEO" />
-              <Step title="Kodning" />
+              <Step title="Programmering" />
               <Step title="Hjemmesider og websystemer" />
             </ul>
+          </div>
           </div>
           <p className="text-neutral-300 mt-4 relative z-20 text-sm">
             Søger du en special løsning?
@@ -27,7 +30,29 @@ const Prices = () => {
             Kontakt os gerne for et uforpligtende møde.
           </p>
         </CardSpotlight>
-        <CardSpotlight className="h-96 w-96">
+        
+        <CardSpotlight className="h-96 w-96 flex flex-col justify-between">
+          <div>
+          <p className="text-xl font-bold relative z-20 mt-2 text-white">
+            Basic chatbot
+          </p>
+          <div className="text-neutral-200 mt-4 relative z-20">
+            8000 kr. herefter 400 kr./pr. måned
+            <ul className="list-none  mt-2">
+              <Step title="Vector database" />
+              <Step title="Chat logs" />
+              <Step title="Hosting og implementering" />
+              <Step title="Løbende support" />
+            </ul>
+          </div>
+          </div>
+          <p className="text-neutral-300 mt-4 relative z-20 text-sm">
+            Yderligere funktioner tilføjes efter aftale for at opfylde dine specifikke krav.
+          </p>
+        </CardSpotlight>
+
+        <CardSpotlight className="h-96 w-96 flex flex-col justify-between">
+          <div>
           <p className="text-xl font-bold relative z-20 mt-2 text-white">
             Opgavebaseret betaling
           </p>
@@ -40,10 +65,12 @@ const Prices = () => {
               <Step title="Standard løsninger" />
             </ul>
           </div>
+          </div>
           <p className="text-neutral-300 mt-4 relative z-20 text-sm">
           Er du usikker eller har du spørgsmål angående vores priser, så tøv ikke med at kontakte os.
           </p>
         </CardSpotlight>
+        
       </div>
       
     </div>
