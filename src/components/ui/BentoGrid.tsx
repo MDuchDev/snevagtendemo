@@ -5,7 +5,6 @@ import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
-import Image from "next/image";
 
 export const BentoGrid = ({
   className,
@@ -70,26 +69,23 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <Image
-              priority
+            <img
               src={img}
               alt={img}
-              fill
-              className={cn(imgClassName, "object-cover object-center hidden sm:flex")}
+              className={cn(imgClassName, "object-cover object-center")}
             />
           )}
         </div>
         <div className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"}`}>
           {spareImg && (
-            <Image
+            <img
               src={spareImg}
               alt={spareImg}
-              width={0}
-              height={0}
               className={"object-cover object-center"}
             />
           )}
         </div>
+
         {id === 6 && (
           <BackgroundGradientAnimation>
           </BackgroundGradientAnimation>

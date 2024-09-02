@@ -13,7 +13,7 @@ export function RecentCases() {
           <span className="text-purple">cases</span>
         </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-20 gap-y-8 mt-10 text-white">
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-[#13162d] sm:max-h-[32rem] h-[32rem] sm:min-w-[570px] w-[80vw]">
+      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-black-100 sm:max-h-[32rem] h-[26rem] sm:min-w-[570px] w-[80vw]">
       <div className="flex items-center justify-center">
           <img src="/p1.jpg" alt="p1" className="z-10" />
         </div>
@@ -36,7 +36,7 @@ export function RecentCases() {
         </div>
       </BackgroundGradient>
 
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-[#13162d] sm:max-h-[32rem] h-[32rem] sm:min-w-[570px] w-[80vw]">
+      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-black-100 sm:max-h-[32rem] h-[26rem] sm:min-w-[570px] w-[80vw]">
         <div className="flex items-center justify-center">
           <img src="/p2.jpg" alt="p1" className="z-10" />
         </div>
@@ -59,7 +59,7 @@ export function RecentCases() {
         </div>
       </BackgroundGradient>
 
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-[#13162d] sm:max-h-[32rem] h-[32rem] sm:min-w-[570px] w-[80vw]">
+      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-black-100 sm:max-h-[32rem] h-[26rem] sm:min-w-[570px] w-[80vw]">
       <div className="flex items-center justify-center">
           <img src="/p4.jpg" alt="p1" className="z-10" />
         </div>
@@ -82,7 +82,7 @@ export function RecentCases() {
         </div>
       </BackgroundGradient>
 
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-[#13162d] sm:max-h-[32rem] h-[32rem] sm:min-w-[570px] w-[80vw]">
+      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-black-100 sm:max-h-[32rem] h-[26rem] sm:min-w-[570px] w-[80vw]">
       <div className="flex items-center justify-center">
           <img src="/p3.jpg" alt="p1" className="z-10" />
         </div>
