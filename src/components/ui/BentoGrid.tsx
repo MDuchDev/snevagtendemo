@@ -74,8 +74,7 @@ export const BentoGridItem = ({
               priority
               src={img}
               alt={img}
-              width={688}
-              height={569}
+              fill
               className={cn(imgClassName, "object-cover object-center")}
             />
           )}
