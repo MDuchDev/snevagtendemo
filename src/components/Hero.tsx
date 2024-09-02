@@ -17,9 +17,9 @@ const Hero = () => {
 
     <div className="flex justify-center relative my-20 z-10">
       <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-        <h2 className="uppercase tracking-widest text-sm text-center text-blue-100 max-w-90">
-          Fullstack udvikler, AI-integrationer og teknisk-SEO
-        </h2>
+        <h1 className="uppercase tracking-widest text-sm text-center text-blue-100 max-w-90">
+          Fullstack udvikler, AI-integrationer og teknisk SEO
+        </h1>
 
         <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl" words="Digitale visioner til problemfri brugeroplevelser" />
         <p className="text-center md:tracking-wider text-sm md:text-lg lg:text-xl text-blue-100 mt-1 md:pb-0 pb-4">

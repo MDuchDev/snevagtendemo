@@ -1,16 +1,14 @@
-import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
 import { socialMedia } from "@/data";
 import { MdOutlineMailOutline } from "react-icons/md";
-import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw] text-white">
+        <h2 className="heading lg:max-w-[45vw] text-white">
           Skal din {" "}<span className="text-purple">digitale</span> tilstedeværelse tages til det næste niveau?
-        </h1>
+        </h2>
         <p className="text-white-200 md:mt-10 my-5 text-center">
         Tag kontakt og lad os sammen kigge på hvordan vi kan hjælpe dig!
         </p>

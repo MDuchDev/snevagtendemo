@@ -8,10 +8,10 @@ export function RecentCases() {
   return (
     <div>
       <div className="py-20 pt-40" id="cases">
-        <h1 className="heading text-white">
+        <h2 className="heading text-white">
           Vores {" "}
           <span className="text-purple">cases</span>
-        </h1>
+        </h2>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-20 gap-y-8 mt-10 text-white">
       <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-black-100 sm:max-h-[32rem] h-[26rem] sm:h-[32rem] sm:min-w-[570px] w-[80vw]">
       <div className="flex items-center justify-center">

@@ -3,10 +3,10 @@ import { CardSpotlight } from "./ui/CardSpotlight";
 const Prices = () => {
   return (
     <div className="py-20" id="prices">
-      <h1 className="heading text-white">
+      <h2 className="heading text-white">
         Vores {" "}
         <span className="text-purple">priser</span>
-      </h1>
+      </h2>
       <div className="pt-14 md:flex-row flex flex-col justify-center items-center gap-8">
         
         <CardSpotlight className="h-96 w-96 flex flex-col justify-between">
