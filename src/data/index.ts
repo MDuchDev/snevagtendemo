@@ -104,11 +104,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      link: "www.github.com/MDuchDev"
+      link: "https://www.linkedin.com/in/mikkel-duch/"
     },
     {
       id: 2,
       img: "/link.svg",
-      link: "www.linkedin.com/in/mikkel-duch"
+      link: "https://www.linkedin.com/in/mikkel-duch/"
     },
   ];
