@@ -9,6 +9,13 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Rexai",
   description: "Rexai freelance webudvikler",
+  verification: {
+    google: "google-site-verification=3lZYv1y1D9A5Ot9WXASkhgC7-_lFP17KuFSXK6pkfAg",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
