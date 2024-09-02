@@ -22,7 +22,7 @@ export function RecentCases() {
         </h2>
 
         <p className="text-sm text-white">
-          Multiagent chatbot med værktøjer til at kunne besvare kundernes spørgsmål, med tilkobling til en vector database.
+          Multiagent-chatbot med værktøjer til at kunne agere som kundeservice ved at besvare kundernes spørgsmål, ved tilkobling til en vector database.
         </p>
         <div className="flex justify-end">
         <a target="_blank" rel="noopener noreferrer" href="https://snevagten.dk/">
@@ -68,7 +68,7 @@ export function RecentCases() {
         </h2>
 
         <p className="text-sm text-white">
-          Teknisk webside optimering for hurtigere ydeevne og forbedret synlighed i søgemaskiner.
+          Løbende teknisk analyse, optimering og rettelser Leesigns hjemmeside, for en hurtigere ydeevne og forbedret synlighed i søgemaskiner.
         </p>
         <div className="flex justify-end">
         <a target="_blank" rel="noopener noreferrer" href="https://leesign.dk/">
@@ -91,7 +91,7 @@ export function RecentCases() {
         </h2>
 
         <p className="text-sm text-white">
-        En custom webscraper til Flexa, som scanner hjemmesider efter valgte produkter.
+        En custom webscraper til Flexa, som scanner hjemmesider efter valgte produkter. Med webscraperen gennemgik vi over 2600 hjemmesider.
         </p>
         <div className="flex justify-end">
         <a target="_blank" rel="noopener noreferrer" href="https://flexaworld.com/">

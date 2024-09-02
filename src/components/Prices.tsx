@@ -37,7 +37,7 @@ const Prices = () => {
             Basic chatbot
           </p>
           <div className="text-neutral-200 mt-4 relative z-20">
-            8000 kr. herefter 400 kr./pr. måned
+            7500 kr. herefter 279 kr./pr. måned
             <ul className="list-none  mt-2">
               <Step title="Vector database" />
               <Step title="Chat logs" />

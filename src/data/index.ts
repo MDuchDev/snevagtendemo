@@ -72,29 +72,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Webudvikling",
-      desc: "Vi udvikler hele løsningen, både backend og frontend med NextJS.",
+      title: "Fullstack udvikler",
+      desc: "Vi udvikler hele løsningen in-house, dette eliminerer misforståelser og kommunikationsfejl, der typisk opstår, når opgaver skal navigere gennem flere led.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Hastighedsoptimering",
-      desc: "Med server side rendering (SSR) sikrer vi altid de hurtigste løsninger for vores kunder.",
+      title: "Chatbot og AI",
+      desc: "Vi udvikler, hoster og implementerer skræddersyet AI-specialløsninger, tilpasset til vores kunders ønsker og behov.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
       title: "Siger aldrig nej til en udfordring",
-      desc: "Har du en ide eller et koncept du gerne vil afprøve? Vi undersøger gerne mulighederne for nye løsninger.",
+      desc: "Har du en ide eller et koncept du gerne vil afprøve? Vi undersøger gerne mulighederne for at gøre dine ideer til virkelighed.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Fullstack udvikler",
-      desc: "Vi laver mange forskellige løsninger til vores kunder. Kontakt os hvis du er i tvivl om vi kan hjælpe dig.",
+      title: "Teknisk SEO",
+      desc: "Vi tilbyder teknisk SEO, hvilket sikrer din hjemmeside optimal ydeevne og synlighed. Vores tilgang inkluderer optimering af hastighed, struktur, content og metadata.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },

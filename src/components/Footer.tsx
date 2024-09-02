@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       <div className="flex flex-col items-center">
-        <h2 className="heading lg:max-w-[45vw] text-white">
+        <span className="heading lg:max-w-[45vw] text-white">
           Skal din {" "}<span className="text-purple">digitale</span> tilstedeværelse tages til det næste niveau?
-        </h2>
+        </span>
         <p className="text-white-200 md:mt-10 my-5 text-center">
         Tag kontakt og lad os sammen kigge på hvordan vi kan hjælpe dig!
         </p>
@@ -19,7 +19,7 @@ const Footer = () => {
 
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal mb-8 sm:mb-0 font-light text-white-200">
-          7400, Herning
+          7400 Herning
           <br />
           Tlf: 30869192
           <br />
