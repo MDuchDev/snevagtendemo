@@ -10,7 +10,8 @@ const Footer = () => {
           Skal din {" "}<span className="text-purple">digitale</span> tilstedeværelse tages til det næste niveau?
         </span>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-        Tag kontakt og lad os sammen kigge på hvordan vi kan hjælpe dig!
+        Tag kontakt i dag og lad os sammen kigge på hvordan vi kan hjælpe dig!
+        <br />
         </p>
         <a href="mailto:mikkel@rexduch.com">
           <MagicButton title="Send os en mail" icon={<MdOutlineMailOutline /> } position="right" />

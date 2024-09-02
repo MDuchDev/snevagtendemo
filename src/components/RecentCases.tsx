@@ -45,7 +45,7 @@ export function RecentCases() {
         </h2>
 
         <p className="text-sm text-white">
-            Python Script som har genereret og SEO-forbedret mere end 2000 produktbeskrivelser på mindre end 20 minutter.
+          Python custom script som har genereret, forbedret og SEO-optimeret mere end 2000 forskellige produktbeskrivelser og derefter gemt dem i Excel.
         </p>
         <div className="flex justify-end">
         <a target="_blank" rel="noopener noreferrer" href="https://flexaworld.com/">
@@ -87,7 +87,7 @@ export function RecentCases() {
           <img src="/p3.jpg" alt="p1" className="z-10" />
         </div>
         <h2 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-white mt-3 mb-2">
-        Hold øje med konkurrenterne
+        Webscraper som finder konkurrenterne
         </h2>
 
         <p className="text-sm text-white">

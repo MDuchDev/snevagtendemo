@@ -25,7 +25,7 @@ const Prices = () => {
           </div>
           </div>
           <p className="text-neutral-300 mt-4 relative z-20 text-sm">
-            Søger du en special løsning?
+            Søger du en specialløsning?
             <br />
             Kontakt os gerne for et uforpligtende møde.
           </p>
@@ -47,7 +47,7 @@ const Prices = () => {
           </div>
           </div>
           <p className="text-neutral-300 mt-4 relative z-20 text-sm">
-            Yderligere funktioner tilføjes efter aftale for at opfylde dine specifikke krav.
+            Yderligere funktioner kan tilføjes efter aftale for at opfylde dine specifikke krav.
           </p>
         </CardSpotlight>
 
@@ -62,7 +62,7 @@ const Prices = () => {
               <Step title="Løsningsorienteret pris" />
               <Step title="Fast budget" />
               <Step title="En gang og færdig opgaver" />
-              <Step title="Standard løsninger" />
+              <Step title="Uforpligtende møde og kontakt" />
             </ul>
           </div>
           </div>

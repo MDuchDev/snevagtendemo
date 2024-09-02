@@ -19,7 +19,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Vi automatiserer online processer og optimerer digitale workflows",
+      title: "Vi automatiserer online processer og optimerer jeres digitale workflows",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -39,7 +39,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Freelancer specialist i ai, webudvikling og automatisering",
+      title: "Freelance specialist i ai, webudvikling, seo og automatisering",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",

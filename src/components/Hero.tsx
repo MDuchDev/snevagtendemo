@@ -26,7 +26,7 @@ const Hero = () => {
           Next.js, OpenAI, FlowiseAI
         </p>
         <a href="#prices">
-          <MagicButton title="Vores priser" icon={<FaLocationArrow />} position="right" />
+          <MagicButton title="Se priser" icon={<FaLocationArrow />} position="right" />
         </a>
       </div>
     </div>
