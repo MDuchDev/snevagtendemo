@@ -12,7 +12,7 @@ export const navItems = [
       title: "Skræddersyede chatbot-løsninger, der kan tilpasses til alle tænkelige formål og funktioner",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-      imgClassName: "w-full h-full sm:flex hidden",
+      imgClassName: "w-full h-full sm:flex hidden bg-none",
       titleClassName: "justify-end",
       img: "/ai-brain.png",
       spareImg: "",
