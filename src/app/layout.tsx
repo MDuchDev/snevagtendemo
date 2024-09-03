@@ -7,8 +7,8 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Rexai",
-  description: "Rexai freelance webudvikler",
+  title: "Rexai - Webudvikling, Chatbots & SEO Optimering",
+  description: "Specialløsninger i webudvikling, avancerede chatbots og effektiv SEO optimering. Vi leverer hele løsninger, der forbedrer din online tilstedeværelse.",
   verification: {
     google: "google-site-verification=3lZYv1y1D9A5Ot9WXASkhgC7-_lFP17KuFSXK6pkfAg",
   },
