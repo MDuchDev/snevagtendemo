@@ -14,7 +14,6 @@ const LandingPage = () => {
       <div className="max-w-7xl w-full">
         <Hero />
         <Grid />
-        <RecentCases />
         <Experience />
         <Prices />
         <Footer />
