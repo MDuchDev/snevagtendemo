@@ -18,21 +18,13 @@ export function RecentCases() {
           <img src="/p1.jpg" alt="p1" className="z-10" />
         </div>
         <h2 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-white mt-3 mb-2">
-          Q&A chatbot til Snevagten.dk
+          Q&A chatbot som kundeservice
         </h2>
 
         <p className="text-sm text-white">
-          Multiagent-chatbot med værktøjer til at kunne agere som kundeservice ved at besvare kundernes spørgsmål, ved tilkobling til en vector database.
+          Multiagent-chatbot med værktøjer til at kunne agere som kundeservice ved at besvare kundernes spørgsmål, tilkoblet til en vector database.
         </p>
         <div className="flex justify-end">
-        <a target="_blank" rel="noopener noreferrer" href="https://snevagten.dk/">
-        <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center bg-purple/40 mt-4 text-xs font-bold">
-          <span className="text-base font-light flex items-center">
-            Se website
-            <FaLocationArrow className="ms-2 mr-2" />
-        </span>
-        </button>
-        </a>
         </div>
       </BackgroundGradient>
 
@@ -41,21 +33,14 @@ export function RecentCases() {
           <img src="/p2.jpg" alt="p1" className="z-10" />
         </div>
         <h2 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-white mt-3 mb-2">
-            2000+ produktbeskrivelser for Flexa
+            2000+ produktbeskrivelser
         </h2>
 
         <p className="text-sm text-white">
           Python custom script som har genereret og SEO-optimeret mere end 2000 forskellige produktbeskrivelser og derefter gemt dem i Excel.
         </p>
         <div className="flex justify-end">
-        <a target="_blank" rel="noopener noreferrer" href="https://flexaworld.com/">
-        <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center bg-purple/40 mt-4 text-xs font-bold">
-          <span className="text-base font-light flex items-center">
-            Se website
-            <FaLocationArrow className="ms-2 mr-2" />
-        </span>
-        </button>
-        </a>
+        
         </div>
       </BackgroundGradient>
 
@@ -87,21 +72,14 @@ export function RecentCases() {
           <img src="/p3.jpg" alt="p1" className="z-10" />
         </div>
         <h2 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-white mt-3 mb-2">
-        Webscraper som finder konkurrenterne
+        Webscraper der finder konkurrenterne
         </h2>
 
         <p className="text-sm text-white">
-        En custom webscraper til Flexa, som scanner hjemmesider efter valgte produkter. Med webscraperen gennemgik vi over 2600 hjemmesider.
+        En custom kodet webscraper, som scanner hjemmesider efter udvalgte produkter. Med webscraperen gennemgik vi over 2600 hjemmesider.
         </p>
         <div className="flex justify-end">
-        <a target="_blank" rel="noopener noreferrer" href="https://flexaworld.com/">
-        <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center bg-purple/40 mt-4 text-xs font-bold">
-          <span className="text-base font-light flex items-center">
-            Se website
-            <FaLocationArrow className="ms-2 mr-2" />
-        </span>
-        </button>
-        </a>
+       
         </div>
       </BackgroundGradient>
       </div>

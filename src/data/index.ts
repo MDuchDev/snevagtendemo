@@ -39,7 +39,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Freelance specialist i ai, webudvikling, seo og automatisering",
+      title: "Freelance specialist i AI, webudvikling, SEO og automatisering",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -49,7 +49,7 @@ export const navItems = [
     },
     {
       id: 5,
-      title: "Vi programmerer og gennemtester AI-specialløsninger bygget med den nyeste teknologi",
+      title: "Vi programmerer og gennemtester AI-specialløsninger bygget på den nyeste teknologi",
       description: "Specialløsninger",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
