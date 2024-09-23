@@ -15,7 +15,7 @@ const Prices = () => {
             Standard pris
           </p>
           <div className="text-neutral-200 mt-4 relative z-20">
-            1200 kr./timen
+            1100 kr./timen
             <ul className="list-none  mt-2">
               <Step title="Chatbots" />
               <Step title="Teknisk SEO" />
@@ -37,7 +37,7 @@ const Prices = () => {
             Basic chatbot
           </p>
           <div className="text-neutral-200 mt-4 relative z-20">
-            7500 kr. herefter 279 kr./pr. måned
+            12.400 kr. herefter 279 kr./pr. måned
             <ul className="list-none  mt-2">
               <Step title="Vector database" />
               <Step title="Chat logs" />
