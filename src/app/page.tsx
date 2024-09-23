@@ -18,8 +18,11 @@ const LandingPage = () => {
         <Experience />
         <Prices />
         <Footer />
+        
+
+
         <BubbleChat
-          chatflowid="42e580fe-1b37-40f2-9aa4-a77ebc8d1728"
+          chatflowid="5df651da-0349-4da5-9aca-2a54d769861c"
           apiHost="https://flowise-v89v.onrender.com" theme={{
             button: {
               backgroundColor: "#3B81F6",
