@@ -40,6 +40,8 @@ const LandingPage = () => {
               welcomeMessage: 'Hej! hvad kan jeg hjælpe med?',
               poweredByTextColor: "#ffffff",
               errorMessage: "Der skete en fejl i vores ende, det beklager vi meget.",
+              height: 660,
+              width: 500,
               botMessage: {
                 showAvatar: false,
               },
