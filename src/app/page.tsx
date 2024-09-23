@@ -35,13 +35,13 @@ const LandingPage = () => {
               tooltipFontSize: 14,
             },
             chatWindow: {
+              height: 640,
+              width: 440,
               showTitle: true,
               title: 'Rexai Chatbot',
               welcomeMessage: 'Hej! hvad kan jeg hjælpe med?',
               poweredByTextColor: "#ffffff",
               errorMessage: "Der skete en fejl i vores ende, det beklager vi meget.",
-              height: 660,
-              width: 500,
               botMessage: {
                 showAvatar: false,
               },
@@ -52,7 +52,8 @@ const LandingPage = () => {
               textInput: {
                 placeholder: "Skriv besked",
                 sendButtonColor: '#3B81F6',
-
+                sendMessageSound: true,
+                receiveMessageSound: true,
               },
               footer: {
                 textColor: '#303235',
