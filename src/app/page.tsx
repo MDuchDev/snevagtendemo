@@ -1,38 +1,25 @@
 "use client";
 
-import Experience from "@/components/Experience";
-import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
-import Hero from "@/components/Hero";
-import Prices from "@/components/Prices";
-import { RecentCases } from "@/components/RecentCases";
 import { BubbleChat } from "flowise-embed-react";
 
 const LandingPage = () => {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-clip mx-auto sm:px-10 px-5">
-      <div className="max-w-7xl w-full">
-        <Hero />
-        <Grid />
-        <RecentCases />
-        <Experience />
-        <Prices />
-        <Footer />
+    <main className="w-full h-full">
+      <img className="bg-contain" src="/snebg3.JPG" />
+        
         
 
 
         <BubbleChat
-          chatflowid="5df651da-0349-4da5-9aca-2a54d769861c"
+          chatflowid="964318ce-81c9-45ca-b30e-9100c59aa404"
           apiHost="https://flowise-v89v.onrender.com" theme={{
             button: {
-              backgroundColor: "#3B81F6",
+              backgroundColor: "#132b40",
               size: "large",
               right: 50,
               bottom: 30,
             },
             tooltip: {
-              showTooltip: true,
-              tooltipMessage: "Prøv vores chatbot 👋",
               tooltipBackgroundColor: "#ffffff",
               tooltipTextColor: "black",
               tooltipFontSize: 14,
@@ -41,33 +28,35 @@ const LandingPage = () => {
               height: 640,
               width: 440,
               showTitle: true,
-              title: 'Rexai Chatbot',
-              welcomeMessage: 'Hej! hvad kan jeg hjælpe med?',
-              poweredByTextColor: "#ffffff",
+              title: 'Snevagten chatbot',
+              welcomeMessage: "Hej og velkommen til Snevagten.dk. Som AI-assistent er jeg her udelukkende for at hjælpe dig, så spørg bare løs.",
               errorMessage: "Der skete en fejl i vores ende, det beklager vi meget.",
               botMessage: {
-                showAvatar: false,
+                showAvatar: true,
+                avatarSrc: "/sne-logo.jpg",
               },
               userMessage: {
-                showAvatar: false,
+                showAvatar: true,
                 backgroundColor: "#3B81F6",
+                avatarSrc: "/user-logo3.jpg",
               },
               textInput: {
                 placeholder: "Skriv besked",
-                sendButtonColor: '#3B81F6',
+                sendButtonColor: '#4d748c',
                 sendMessageSound: true,
                 receiveMessageSound: true,
+                maxChars: 400,
+                maxCharsWarningMessage: "Maksimum 400 tegn.",
+                autoFocus: true,
               },
               footer: {
-                textColor: '#303235',
+                textColor: '#4d748c',
                 text: 'Powered by',
                 company: 'Rexai',
                 companyLink: 'https://rexai.dk',
-            }
+              }
             },
-            
           }} />
-      </div>
     </main>
   );
 }

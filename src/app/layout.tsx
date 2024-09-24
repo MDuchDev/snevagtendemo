@@ -1,21 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
 import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Rexai - Webudvikling, Chatbots & SEO Optimering",
-  description: "Specialløsninger i webudvikling, avancerede chatbots og effektiv SEO optimering. Vi leverer hele løsninger, der forbedrer din online tilstedeværelse.",
-  verification: {
-    google: "google-site-verification=3lZYv1y1D9A5Ot9WXASkhgC7-_lFP17KuFSXK6pkfAg",
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  title: "Snevagten demo",
+  description: "demo på chatbot",
 };
 
 export default function RootLayout({
@@ -26,8 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full">
       <body className={cn("relative h-full font-sans antialiased", inter.className)}>
-        <main className="relative flex flex-col min-h-screen -mt-16">
-          <Navbar />
+        <main className="relative flex flex-col min-h-screen">
           <div className='flex-grow flex-1'>
             {children}
           </div>
