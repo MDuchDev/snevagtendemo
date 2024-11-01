@@ -7,7 +7,7 @@ const LandingPage = () => {
         // Dynamically import the script
         const script = document.createElement('script');
         script.type = 'module';
-        script.src = 'https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js';
+        script.src = 'https://cdn.jsdelivr.net/gh/MDuchDev/FlowiseChatEmbed@7c370c7/dist/web.js';
         script.onload = () => {
           // Initialize the Chatbot after the script is loaded
           // Assuming Chatbot is attached to the global window object
