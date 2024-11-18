@@ -14,7 +14,7 @@ const LandingPage = () => {
         window.voiceflow.chat.load({
           verify: { projectID: '67363bc34951479702fa1c16' },
           url: 'https://general-runtime.voiceflow.com',
-          versionID: 'production'
+          versionID: "67363bc34951479702fa1c17"
         });
       }
     };
